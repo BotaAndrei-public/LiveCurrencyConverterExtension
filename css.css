@@ -1,0 +1,152 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: #f5f5f5;
+}
+
+#main-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  width: 300px;
+}
+
+.row {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input, select {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #1D3557;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #457B9D;
+}
+
+#live-rate {
+  margin-top: 15px;
+  padding: 10px;
+  background: rgb(209, 209, 209);
+  border-radius: 5px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#calc-result {
+  margin-top: 10px;
+  padding: 5px;
+  background: rgb(232, 232, 232);
+  border-radius: 5px;
+}
+
+#conversion {
+    padding: 5px;
+    border-radius: 5px;
+}
+#last-update{
+    margin-top: 10px;
+}
+
+#powerBy{
+ margin-top: 10px;
+ font-weight: 600;
+ justify-content: center;
+ text-align: center;
+ align-content: center;
+ background: #1D3557;
+ padding: 5px;
+ border-radius: 5px;
+ color: white;
+ display: flex;
+ gap:5px
+}
+
+#powerBy > a {
+    
+    color: #457B9D;
+}
+#powerBy > img {
+    width: 20px;
+}
+
+#amount{
+    border: #1D3557 solid 2px;
+    font-weight: 600;
+    
+}
+
+div{
+    background: #f5f5f5;
+    padding: 5px;
+    border-radius: 5px;
+}
+h3{
+   
+    color: #1D3557;
+    
+}
+
+h3 >span {
+    color: #f15757;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+h3 >span>div {
+    padding: 0px;
+}
+
+
+.green{
+  background: #66FF99;
+}
+
+.orange{
+    background: #f15757;
+}
+
+
+
+.circle {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 1px 1px #000000;
+}
+
+.pulse {
+  animation: pulse-animation 2s infinite;
+}
+
+@keyframes pulse-animation {
+  0% {
+    box-shadow: 0 0 0 0px rgba(255, 0, 0, 0.635);
+  }
+  100% {
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "LiveCurrencyConverterExtension",
+  "version": "1.0",
+  "description": "Mini currency converter with live updates",
+  "permissions": [
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "index.html"
+ 
+  }
+}

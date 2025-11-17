@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css.css" />
+    <title>LiveCurrencyConverterExtension</title>
+  </head>
+  <body>
+    <div id="main-card">
+      <h3>
+        <span
+          >Live
+          <div class="circle pulse orange"></div>
+        </span>
+        Currency Converter Extension
+      </h3>
+
+      <div class="row">
+        <label for="from-currency">From:</label>
+        <select id="from-currency">
+          <option value="RON">RON</option>
+          <option value="EUR" selected>EUR</option>
+          <option value="USD">USD</option>
+          <option value="GBP">GBP</option>
+          <option value="HUF">HUF</option>
+        </select>
+      </div>
+
+      <div class="row">
+        <label for="to-currency">To:</label>
+        <select id="to-currency">
+          <option value="RON">RON</option>
+          <option value="EUR">EUR</option>
+          <option value="USD">USD</option>
+          <option value="GBP">GBP</option>
+          <option value="HUF">HUF</option>
+        </select>
+      </div>
+
+      <div id="live-rate">
+        <span id="conversion">1 EUR = -- RON</span>
+        <span id="arrow">➡️</span>
+      </div>
+
+      <div id="last-update">
+        Last update: <span id="lastUpdate">--:--:--</span>
+      </div>
+
+      <hr />
+
+      <div class="row">
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount" value="1" min="0" step="0.01" />
+      </div>
+
+      <button id="calcBtn">Calculează</button>
+      <div id="calc-result">Result: --</div>
+      <div id="powerBy">
+        Power by
+        <a href="https://frankfurter.dev/" target="_blank">frankfurter.dev</a>
+        <img src="https://frankfurter.dev/favicon.svg?v=1757050344" alt="" />
+      </div>
+    </div>
+    <script type="module" src="js.js"></script>
+  </body>
+</html>
