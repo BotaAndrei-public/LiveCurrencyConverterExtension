@@ -46,7 +46,7 @@ The extension is primarily designed as a **portfolio project**, but it can also 
     ```bash
     cd LiveCurrencyConverterExtension
     ```
-3. Open Chrome or Edge and go to:
+##### 3. Open Chrome or Edge and go to:
     ```bash
     chrome://extensions/
     ```
