@@ -1,10 +1,5 @@
 # LiveCurrencyConverterExtension
-LiveCurrencyConverterExtension – browser extension for real-time currency conversions.
-
-
-
 **LiveCurrencyConverter** is a browser extension designed to provide **real-time currency conversions** directly in the browser interface.  
-This project serves as a **portfolio piece**.
 
 ## Key Features
 
