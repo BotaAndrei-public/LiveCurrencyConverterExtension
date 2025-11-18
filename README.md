@@ -43,20 +43,20 @@ The extension is primarily designed as a **portfolio project**, but it can also 
    ```
 
 ##### 2. Navigate into the project folder:
-    ```bash
+   ```bash
     cd LiveCurrencyConverterExtension
-    ```
+   ```
 ##### 3. Open Chrome or Edge and go to:
-    ```bash
+   ```bash
     chrome://extensions/
-    ```
+   ```
 ##### 4. Enable Developer mode.
 ##### 5. Click Load unpacked and select the project folder.
 ##### 6. The extension will appear in your browser toolbar and is ready to use.
 
 ### Option 2: Preview Locally with a Web Server (Optional)
 ##### To preview the HTML pages locally, you can use a local web server:
-   ```
+   ```bash
    npx live-server
    ```
    OR
